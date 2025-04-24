@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 5</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Internal CSS */
+    .nav-button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: 1px solid black;
+      border-radius: 5px;
+      background-color: white;
+    }
+
+    .image-box {
+      width: 150px;
+      height: 150px;
+      border: 1px solid black;
+      display: inline-block;
+      margin: 10px;
+    }
+
+    #footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      border: 1px solid rgb(0, 0, 0);
+      border-radius: 15px;
+      margin-top: 20px;
+    }
+
+   #header {
+     display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      border: 1px solid rgb(0, 0, 0);
+      border-radius: 15px;
+      margin-top: 20px;
+   } 
+  </style>
+</head>
+<body>
+
+  <!--header-->
+  <header style="display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+    <img src="assets/images/mr.jpg" alt="Logo" width="150" height="100">
+    <nav>
+      <button class="nav-button">HOME</button>
+      <button class="nav-button">ABOUT</button>
+      <button class="nav-button">CONTACT</button>
+      <button class="nav-button">INFO</button>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <section id="main-content" class="rounded-box">
+    <div style="display: flex; gap: 20px; padding: 20px;">
+      <img src="assets/images/cbum.jpg" alt="Image 1" width="150">
+      <div>
+        <h3>The ideal body since the ancient greek civilization </h3>
+        <p style="color: rgb(0, 0, 0);"> 
+          Bodybuilding makes us happy because it gives us a sense of purpose, discipline, and achievement. Every workout is a shared journey toward becoming stronger—not just physically, but mentally as well. It helps us release stress, stay focused, and feel more confident about ourselves. Seeing progress in each other and feeling it in our strength motivates us to keep going, even when life gets tough. It’s more than just lifting weights; it’s a lifestyle that empowers us to push our limits and become the best versions of ourselves.
+        </p>
+        <button>Read more</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="rounded-box" style="padding: 20px;">
+    <div class="image-box"><img src="assets/images/jay.webp" width="100%" height="150"></div>
+    <div class="image-box"><img src="assets/images/sam.jpg" width="100%" height="150"></div>
+    <div class="image-box"><img src="assets/images/ron.webp" width="100%" height="150"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div>
+      <img src="assets/images/ed.jpg" width="160" height="160">
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul style="list-style-type: none; padding: 0;">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Info</li>
+      </ul>
+    </div>
+    <div>
+      <h4>SUMMER READY BODY</h4>
+      <p>"Join us to improve your body, boost your confidence, and achieve your fitness goals!"</p>
+    </div>
+  </footer>
+
+</body>
+</html>
